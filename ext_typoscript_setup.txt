@@ -1,0 +1,38 @@
+
+plugin.tx_julleevents_pi1 {
+	sender-address =
+	sender-name =
+	sortByBEorder = 0
+	pastOrFuture = 0
+	excludeList =
+	dateformat = %d-%m-%y
+	defaultVals {
+	}
+}
+
+
+plugin.tx_julleevents_pi1.listView {
+	results_at_a_time = 
+	maxPages = 
+}
+
+plugin.tx_julleevents_pi1.frontPage {
+	results_at_a_time = 
+	maxPages = 
+}
+
+
+plugin.tx_julleevents_pi2.image.file.width = 150
+
+  _CSS_DEFAULT_STYLE (
+	.tx-jullevents-pi1 .tx-jullevents-pi1-listrow P.tx-jullevents-pi1-listrowField-title { font-weight:bold; }
+	.tx-jullevents-pi1 .tx-jullevents-pi1-listrow P.tx-jullevents-pi1-listrowField-teaser { margin-bottom:15px; }
+	.tx-jullevents-pi1 .tx-jullevents-pi1-listrowFrontPage P.tx-jullevents-pi1-listrowFrontPageField-title { font-weight:bold; }
+	.tx-jullevents-pi1 .tx-jullevents-pi1-listrowFrontPage P.tx-jullevents-pi1-listrowFrontPageField-teaser { margin-top:0px; margin-bottom:10px; }
+	.tx-jullevents-pi1 .tx-jullevents-pi1-singleView P.tx-jullevents-pi1-singleViewField-teaser { font-style:italic; margin-top:5px; margin-bottom:10px; }
+	.tx-jullevents-pi1 .tx-jullevents-pi1-browsebox P SPAN.tx-jullevents-pi1-browsebox-strong { font-weight:bold; }
+	.tx-jullevents-pi1 .tx-jullevents-pi1-listrow P.tx-jullevents-pi1-listrowField-teaser A { color:black; text-decoration:none; }
+	.tx-jullevents-pi1 .tx-jullevents-pi1-listrow P.tx-jullevents-pi1-listrowField-teaser A:hover { color:black; text-decoration:none; }
+  )
+
+
